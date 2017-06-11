@@ -12,18 +12,19 @@
 <p>See more from <a href="https://www.jetbrains.com/help/pycharm/2017.1/type-hinting-in-pycharm.html">https://www.jetbrains.com/help/pycharm/2017.1/type-hinting-in-pycharm.html</a></p>
 <hr>
 <p>Move cursor to the element, and press <code>ctrl shift Y</code>  to add the type comments.</p>
-<p><a href="/aristotll/python-typing-adder/blob/master/imgs/typing-comments-added.gif" target="_blank"><img src="https://raw.githubusercontent.com/aristotll/python-typing-adder/master/imgs/typing-comments-added.gif" alt="typing-comments-added" style="max-width:100%;"></a></p>
+<p><a href="/aristotll/python-typing-adder/blob/master/imgs/typing-comments-added.gif" target="_blank"><img src="/aristotll/python-typing-adder/raw/master/imgs/typing-comments-added.gif" alt="typing-comments-added" style="max-width:100%;"></a></p>
 <hr>
 <p>Before:</p>
 <div class="highlight highlight-source-python"><pre><span class="pl-k">def</span> <span class="pl-en">greeting_with_type</span>(<span class="pl-smi">name</span>):
-<span class="pl-k">return</span> <span class="pl-s"><span class="pl-pds">'</span>Hello <span class="pl-pds">'</span></span> <span class="pl-k">+</span> name</pre></div>
+    <span class="pl-k">return</span> <span class="pl-s"><span class="pl-pds">'</span>Hello <span class="pl-pds">'</span></span> <span class="pl-k">+</span> name</pre></div>
 <p>After:</p>
 <div class="highlight highlight-source-python"><pre><span class="pl-k">def</span> <span class="pl-en">greeting_with_type</span>(<span class="pl-smi">name</span>):  <span class="pl-c"># <span class="pl-c">type:</span> <span class="pl-c">(</span><span class="pl-c">str</span><span class="pl-c">)</span> <span class="pl-c">-&gt;</span> <span class="pl-c">str</span></span>
-<span class="pl-k">return</span> <span class="pl-s"><span class="pl-pds">'</span>Hello <span class="pl-pds">'</span></span> <span class="pl-k">+</span> name
+    <span class="pl-k">return</span> <span class="pl-s"><span class="pl-pds">'</span>Hello <span class="pl-pds">'</span></span> <span class="pl-k">+</span> name
 </pre></div>
+<hr>
+<p>It depends on the <code>Python</code> plugin of intellij, and I think Pycharm also works.</p>
 </article>
-
-        ]]></description>
+      ]]></description>
 
     <change-notes><![CDATA[
 first release
