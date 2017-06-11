@@ -29,9 +29,7 @@ class PythonTypeInfoAddedGroovyEvent {
          */
         PsiFile psiFile = currentPsiFileIn(project)
         final CaretModel cursor = editor.caretModel
-        /**
-         * 一般建议用父元素 一般都到底层的 token 了
-         */
+    
         PsiElement psiElement = psiFile.findElementAt(cursor.offset).parent
 //        inspect(psiElement)
         if (psiElement == null) {
