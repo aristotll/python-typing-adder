@@ -1,6 +1,6 @@
 <idea-plugin>
     <id>me.aristotll.python.typing.adder</id>
-    <name>me.aristotll.python.typing.adder</name>
+    <name>python-typing-adder</name>
     <version>1.0</version>
     <vendor email="aristotll.good@gmail.com">aristotll</vendor>
 
