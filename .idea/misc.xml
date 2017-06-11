@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GeneratorPluginComponent">
+    <option name="variableInitializers">
+      <TypeToTextMapping>
+        <option name="mapping">
+          <map>
+            <entry key="java.util.ArrayList">
+              <value>
+                <Entry>
+                  <option name="text" value="new java.util.ArrayList$&lt;&gt;$()" />
+                  <option name="type" value="java.util.ArrayList" />
+                  <option name="isAddRemoveMethodRequested" value="true" />
+                </Entry>
+              </value>
+            </entry>
+            <entry key="java.util.Collection">
+              <value>
+                <Entry>
+                  <option name="text" value="java.util.Collections.$&lt;&gt;$emptySet()" />
+                  <option name="type" value="java.util.Collection" />
+                  <option name="isAddRemoveMethodRequested" value="true" />
+                </Entry>
+              </value>
+            </entry>
+            <entry key="java.util.HashMap">
+              <value>
+                <Entry>
+                  <option name="text" value="new java.util.HashMap$&lt;&gt;$()" />
+                  <option name="type" value="java.util.HashMap" />
+                  <option name="isAddRemoveMethodRequested" value="false" />
+                </Entry>
+              </value>
+            </entry>
+            <entry key="java.util.HashSet">
+              <value>
+                <Entry>
+                  <option name="text" value="new java.util.HashSet$&lt;&gt;$()" />
+                  <option name="type" value="java.util.HashSet" />
+                  <option name="isAddRemoveMethodRequested" value="true" />
+                </Entry>
+              </value>
+            </entry>
+            <entry key="java.util.LinkedHashSet">
+              <value>
+                <Entry>
+                  <option name="text" value="new java.util.LinkedHashSet$&lt;&gt;$()" />
+                  <option name="type" value="java.util.LinkedHashSet" />
+                  <option name="isAddRemoveMethodRequested" value="true" />
+                </Entry>
+              </value>
+            </entry>
+            <entry key="java.util.List">
+              <value>
+                <Entry>
+                  <option name="text" value="java.util.Collections.$&lt;&gt;$emptyList()" />
+                  <option name="type" value="java.util.List" />
+                  <option name="isAddRemoveMethodRequested" value="true" />
+                </Entry>
+              </value>
+            </entry>
+            <entry key="java.util.Set">
+              <value>
+                <Entry>
+                  <option name="text" value="java.util.Collections.$&lt;&gt;$emptySet()" />
+                  <option name="type" value="java.util.Set" />
+                  <option name="isAddRemoveMethodRequested" value="true" />
+                </Entry>
+              </value>
+            </entry>
+            <entry key="java.util.SortedSet">
+              <value>
+                <Entry>
+                  <option name="text" value="new java.util.TreeSet$&lt;&gt;$()" />
+                  <option name="type" value="java.util.SortedSet" />
+                  <option name="isAddRemoveMethodRequested" value="true" />
+                </Entry>
+              </value>
+            </entry>
+          </map>
+        </option>
+      </TypeToTextMapping>
+    </option>
+  </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES5" />
+  </component>
+  <component name="JsBowerSettings">
+    <exe-path>/usr/local/Cellar/node/7.1.0/bin/bower</exe-path>
+    <config-path />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+  </component>
+  <component name="Michael.U.Bergens.CopyNixDirPlugin">
+    <option name="replaceWith" value="" />
+    <option name="search" value="" />
+    <option name="tryString" value="C:\dir\blah\meh\file.ext" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Gems</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Google App Engine (Python)</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Action Cable</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="IntelliJ IDEA IU-162.2228.15 (1)" project-jdk-type="IDEA JDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="PyDebuggerOptionsProvider">
+    <option name="mySaveCallSignatures" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="deltaUtilsSettings">
+    <option name="settings">
+      <list>
+        <BrowsePattern>
+          <option name="icon" value="GOOGLE" />
+          <option name="label" value="Search with Google" />
+          <option name="pattern" value="http://www.google.com/search?q={selection}" />
+        </BrowsePattern>
+        <BrowsePattern>
+          <option name="icon" value="SEARCH CODE" />
+          <option name="label" value="Search code" />
+          <option name="pattern" value="http://code.google.com/intl/en/query/#q={selection}" />
+        </BrowsePattern>
+        <BrowsePattern>
+          <option name="enabled" value="false" />
+          <option name="icon" value="TRANSLATE" />
+          <option name="label" value="Translate with Google" />
+          <option name="pattern" value="http://translate.google.com/#auto/en/{selection}" />
+        </BrowsePattern>
+      </list>
+    </option>
+  </component>
+</project>

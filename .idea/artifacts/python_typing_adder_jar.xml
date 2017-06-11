@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="python-typing-adder:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/python_typing_adder_jar</output-path>
+    <root id="archive" name="python-typing-adder.jar">
+      <element id="module-output" name="python-typing-adder" />
+    </root>
+  </artifact>
+</component>

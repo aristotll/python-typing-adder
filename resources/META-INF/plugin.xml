@@ -1,0 +1,35 @@
+<idea-plugin>
+    <id>me.aristotll.python.typing.adder</id>
+    <name>me.aristotll.python.typing.adder</name>
+    <version>1.0</version>
+    <vendor email="aristotll.good@gmail.com">aristotll</vendor>
+
+    <description><![CDATA[
+
+
+        ]]></description>
+
+    <change-notes><![CDATA[
+first release
+    ]]>
+    </change-notes>
+
+    <idea-version since-build="145.0"/>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <!-- uncomment to enable plugin in all products
+    <depends>com.intellij.modules.lang</depends>
+    -->
+    <depends>Pythonid</depends>
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <action id="LPPythonTypeInfoAdded" class="me.aristotll.PythonTypeInfoAddedAction" text="add type comments">
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl shift Y"/>
+        </action>
+    </actions>
+
+</idea-plugin>
