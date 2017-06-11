@@ -34,3 +34,7 @@ def greeting_with_type(name):  # type: (str) -> str
 ---
 
 It depends on the `Python` plugin of intellij, and I think Pycharm also works.
+
+
+---
+
