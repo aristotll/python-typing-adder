@@ -16,18 +16,17 @@
 <hr>
 <p>Before:</p>
 <div class="highlight highlight-source-python"><pre><span class="pl-k">def</span> <span class="pl-en">greeting_with_type</span>(<span class="pl-smi">name</span>):
-    <span class="pl-k">return</span> <span class="pl-s"><span class="pl-pds">'</span>Hello <span class="pl-pds">'</span></span> <span class="pl-k">+</span> name</pre></div>
+<span class="pl-k">return</span> <span class="pl-s"><span class="pl-pds">'</span>Hello <span class="pl-pds">'</span></span> <span class="pl-k">+</span> name</pre></div>
 <p>After:</p>
 <div class="highlight highlight-source-python"><pre><span class="pl-k">def</span> <span class="pl-en">greeting_with_type</span>(<span class="pl-smi">name</span>):  <span class="pl-c"># <span class="pl-c">type:</span> <span class="pl-c">(</span><span class="pl-c">str</span><span class="pl-c">)</span> <span class="pl-c">-&gt;</span> <span class="pl-c">str</span></span>
-    <span class="pl-k">return</span> <span class="pl-s"><span class="pl-pds">'</span>Hello <span class="pl-pds">'</span></span> <span class="pl-k">+</span> name
+<span class="pl-k">return</span> <span class="pl-s"><span class="pl-pds">'</span>Hello <span class="pl-pds">'</span></span> <span class="pl-k">+</span> name
 </pre></div>
 <hr>
 <p>It depends on the <code>Python</code> plugin of intellij, and I think Pycharm also works.</p>
 <hr>
 <p>see <a href="https://github.com/aristotll/python-typing-adder">https://github.com/aristotll/python-typing-adder</a> for more information</p>
-
 </article>
-      ]]></description>
+        ]]></description>
 
     <change-notes><![CDATA[
 first release
@@ -38,10 +37,10 @@ first release
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
          on how to target different products -->
-    <!-- uncomment to enable plugin in all products
     <depends>com.intellij.modules.lang</depends>
-    -->
-    <depends>Pythonid</depends>
+    <depends optional="true">com.intellij.modules.python</depends>
+    <depends optional="true">Pythonid</depends>
+    <depends optional="true">PythonCore</depends>
     <extensions defaultExtensionNs="com.intellij">
         <!-- Add your extensions here -->
     </extensions>
